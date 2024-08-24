@@ -1,0 +1,73 @@
+.banner {
+    width: 1366px;
+    height: 651px;
+    /* background-color: #056e70; */
+    background-image: url("../../assets/images/wlecome.jpg");
+    /* mask-image: linear-gradient(to top right, transparent 49.5%, white 50.5%), linear-gradient(to top
+    left, transparent 49.5%, white 50.5%), linear-gradient(white, white); */
+    mask-size: 75% 25%, 25% 25%, 100% 75%;
+    mask-position: bottom left, bottom right, top left;
+    mask-repeat: no-repeat;
+}
+.btn-btn {
+    margin-top: 12px;
+    width: 186px;
+    height: 46px;
+    background-color: #484848;
+    border-radius: 23px;
+}
+.user-btn {
+    margin-top: 12px;
+    margin-left: 24px;
+    width: 98px;
+    height: 46px;
+    background-color: #FFFFFF;
+    border-radius: 23px;    
+}
+.text-text {
+    margin-top: 12px;
+    margin-left: 24px;    
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    /* font-style: normal;
+    font-variant: normal;
+    font-weight: normal; */
+    /* GoalKicker.com – CSS Notes for Professionals 90 */
+    /* font-stretch: normal;
+    font-size: medium;
+    line-height: normal; */
+    /* font-family – depends on user */
+}
+.find-section {
+    margin-top: -257px;
+    width: 794px;
+    height: 70px;
+    color: #484848;
+}
+.search-section {
+    width: 794px;
+    height: 70px;
+    border: 1px solid red;
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+.heart-icon {
+    margin-top: 36px;
+    margin-left: 190px;
+}
+.content-text {
+    padding: 18px;
+    margin-top: 100px;
+}
+
+.content-box {
+    width: 1206px;
+    height: 395px;
+    background-color: #8e97aa;
+    color: black;
+}
+.content-box .title {
+    
+}
