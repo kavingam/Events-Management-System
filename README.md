@@ -36,20 +36,6 @@ Backend:
 The backend is powered by Node.js with Express.js to handle server-side operations and RESTful API development. The platform uses MongoDB as a NoSQL database, providing flexibility in data storage and retrieval for various event-related information such as user profiles, event details, registrations, and transactions. Mongoose is utilized for data modeling and schema management.
 </p>
 
-For authentication and authorization, the system employs JSON Web Tokens (JWT), ensuring secure user access and protecting sensitive data. Additionally, Bcrypt is used for password hashing, enhancing security.
-
-Features:
-Event Creation & Management: Organizers can create, update, and manage events with customizable fields for dates, locations, descriptions, and pricing.
-User Roles: The system supports multiple user roles, including organizers, attendees, and vendors, each with tailored dashboards and permissions.
-Online Registration & Payments: Integrated with Stripe or PayPal for secure payment processing, allowing attendees to register and pay for events online.
-Real-time Notifications: WebSockets and Socket.io are used for real-time communication, enabling instant notifications and updates.
-Event Analytics: The platform includes data visualization tools using Chart.js or D3.js to provide organizers with insights into registration numbers, revenue, attendee engagement, and more.
-Email & SMS Notifications: Nodemailer and Twilio are integrated to automate communication, sending reminders, confirmations, and alerts.
-Content Management: The system features a built-in content management system (CMS) for managing event-related media, documents, and promotional materials.
-Search & Filter: Advanced search and filtering options are implemented using Elasticsearch to help users quickly find relevant events.
-Scalability & Performance: Docker and Kubernetes are employed for containerization and orchestration, ensuring the platform scales efficiently with increased traffic.
-Security: Implemented using Helmet.js for setting HTTP headers and CORS for cross-origin resource sharing, ensuring secure interactions between the client and server.
-
 
 
 # Project Title
