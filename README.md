@@ -65,9 +65,9 @@ A brief description of the project, its purpose, and key functionalities.
 - **Search & Filter:** Quickly find events using advanced search options.
 
 ## Technologies Used
-- **Frontend:** HTML5, CSS3, JavaScript, React.js, Bootstrap
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB, Mongoose
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap
+- **Backend:** PHP
+- **Database:** MySQL
 - **Authentication:** JWT, Bcrypt
 - **Payment Gateway:** Stripe, PayPal
 - **Real-time Communication:** WebSockets, Socket.io
@@ -76,25 +76,27 @@ A brief description of the project, its purpose, and key functionalities.
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/event-management-system.git
+    git clone https://github.com/kavingam/event-management-system.git
     ```
 2. Navigate to the project directory:
     ```bash
     cd event-management-system
     ```
 3. Install dependencies:
-    ```bash
-    npm install
+    ```software
+    xampp install
     ```
 4. Set up environment variables by creating a `.env` file in the root directory:
     ```
-    MONGO_URI=your_mongodb_uri
-    JWT_SECRET=your_jwt_secret
-    STRIPE_SECRET=your_stripe_secret_key
+   Paste event-management-system folder
+    C:/xampp/htdoc/
     ```
 5. Start the development server:
     ```bash
-    npm run dev
+    Open Xampp control panel
+    start Apache2
+    start Mysql
+    start FileZilla
     ```
 
 ## Usage
