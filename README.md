@@ -140,5 +140,5 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License.
 
 ## Contact
-- **Your Name:** [Your Email](mailto:your-email@example.com)
-- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
+- **Your Name:** [bhaitigam71@gmail.com](mailto:your-email@example.com)
+- **GitHub:** [kavin gam](https://github.com/yourusername)
