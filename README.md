@@ -49,3 +49,96 @@ Content Management: The system features a built-in content management system (CM
 Search & Filter: Advanced search and filtering options are implemented using Elasticsearch to help users quickly find relevant events.
 Scalability & Performance: Docker and Kubernetes are employed for containerization and orchestration, ensuring the platform scales efficiently with increased traffic.
 Security: Implemented using Helmet.js for setting HTTP headers and CORS for cross-origin resource sharing, ensuring secure interactions between the client and server.
+
+
+
+# Project Title
+**Event Management System**
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Screenshots](#screenshots)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
+
+## Introduction
+A brief description of the project, its purpose, and key functionalities.
+
+## Features
+- **Event Creation & Management:** Create and manage events with custom details.
+- **User Roles:** Supports multiple roles including organizers, attendees, and vendors.
+- **Online Registration & Payments:** Secure payment processing via Stripe or PayPal.
+- **Real-time Notifications:** Get instant updates on event changes.
+- **Analytics:** Visualize event data and performance metrics.
+- **Content Management:** Manage media, documents, and more.
+- **Search & Filter:** Quickly find events using advanced search options.
+
+## Technologies Used
+- **Frontend:** HTML5, CSS3, JavaScript, React.js, Bootstrap
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB, Mongoose
+- **Authentication:** JWT, Bcrypt
+- **Payment Gateway:** Stripe, PayPal
+- **Real-time Communication:** WebSockets, Socket.io
+- **Deployment:** Docker, Kubernetes, AWS
+
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/event-management-system.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd event-management-system
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Set up environment variables by creating a `.env` file in the root directory:
+    ```
+    MONGO_URI=your_mongodb_uri
+    JWT_SECRET=your_jwt_secret
+    STRIPE_SECRET=your_stripe_secret_key
+    ```
+5. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Usage
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Register as an event organizer, attendee, or vendor.
+3. Create and manage events, register for events, and more.
+
+## Screenshots
+Add some screenshots or GIFs showing your project in action.
+
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature-name
+    ```
+3. Commit your changes:
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature-name
+    ```
+5. Open a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+- **Your Name:** [Your Email](mailto:your-email@example.com)
+- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
